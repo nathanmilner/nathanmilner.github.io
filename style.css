@@ -1,0 +1,107 @@
+body {
+font-family: 'Quicksand', sans-serif;
+}
+.body {
+background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+width: 100%;
+}
+h1 {
+/*font-family: 'Archivo Black', sans-serif;*/
+color: #fff;
+font-weight: normal;
+}
+h1.title {
+font-size: 42px;
+text-align: center;
+text-transform: uppercase;	
+}
+img.cover {
+box-shadow: 0 0 10px #555;
+max-width: 100%;
+}
+.main {
+background: #fff;
+/*border: 1px solid #333;*/
+box-shadow: 0 0 5px #555;
+font-size: 16px;
+margin: 0 0 3rem;
+padding: 2rem;
+}
+.main p {
+margin: 0 0 1.5rem;	
+}
+#mc_embed_signup {
+border: 1px dashed #fff;
+border-radius: 5px;
+font-size: 16px;
+width: 100%;	
+}
+input.email {
+background: none;
+border: none;
+color: #fff;
+display: inline-block;
+outline: none;
+padding: 0.5rem;
+width: 91%;	
+}
+input.email:focus {
+border: none;	
+}
+.button {
+background: #ccc;
+border: none;
+border-radius: 0 5px 5px 0;
+color: #333;
+display: inline-block;
+font-weight: bold;
+padding: 0.5rem 0.2rem;
+transition: all 300ms ease;
+width: 9%;
+}
+.button:hover {
+background: #fff;
+color: #333;
+}
+.bttn {
+background: red;
+border: 1px solid red;
+color: #fff;
+display: block;
+font-family: 'Archivo Black', sans-serif;
+font-size: 22px;
+margin: 3rem 0 0;
+padding: 0.8rem 1rem;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+transition: all 500ms ease;	
+}
+.bttn:hover {
+background: #fff;
+color: red;
+text-decoration: none;	
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+.note {
+color: #fff;	
+font-size: 14px;
+font-style: italic;	
+}
+
+/************************MEDIA QUERIES*********************/
+@media (max-width: 767px) {
+	.body { height: 100%; padding-bottom: 2rem; }
+}
