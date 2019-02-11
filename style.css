@@ -67,8 +67,8 @@ background: #fff;
 color: #333;
 }
 .bttn {
-background: red;
-border: 1px solid red;
+background: #f16e24;
+border: 1px solid #f16e24;
 color: #fff;
 display: block;
 font-family: 'Archivo Black', sans-serif;
@@ -82,7 +82,7 @@ transition: all 500ms ease;
 }
 .bttn:hover {
 background: #fff;
-color: red;
+color: #f16e24;
 text-decoration: none;	
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
