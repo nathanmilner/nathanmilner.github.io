@@ -100,6 +100,15 @@ color: #fff;
 font-size: 14px;
 font-style: italic;	
 }
+.notice {
+background: red;
+color: #fff;
+padding: 1rem 0.7rem;	
+}
+.notice h4 {
+font-size: 20px;
+margin: 0 0 0.3rem;	
+}
 
 /************************MEDIA QUERIES*********************/
 @media (max-width: 767px) {
