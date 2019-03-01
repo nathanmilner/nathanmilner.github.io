@@ -22,6 +22,7 @@
 	<meta name="twitter:image" content="http://www.dinosorcerers.com/images/ds-cover.jpg">
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Quicksand" rel="stylesheet">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23696263-5"></script>
 	<script>
@@ -30,6 +31,12 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'UA-23696263-5');
+	  var trackOutboundLink = function(url) {
+		ga('send', 'event', 'outbound', 'click', url, {
+			'transport': 'beacon',
+			'hitCallback': function(){document.location = url;}
+		});
+		}
 	</script>
   </head>
   <body>
@@ -50,11 +57,11 @@
 						<p>Beeon believes Charlie may have the ability to reunite him, at last, with the dinosaurs who were magically transported to another planet 65 million years ago and saved from extinction.</p>
 						<p>Charlie winds up contacting an ambitious and ruthless dinosorcerer, who, upon learning that Earth has been overtaken by humans, vows to return and reclaim the planet for dinosaurs.</p>
 						<p>With the help of his clever friend Meredith, Charlie will try to undo the damage he&rsquo;s done, help Beeon reclaim his magic and uncover the secrets of the dinosorcerers.</p>
-						<!--div class="notice">
-							<h4>Special Offer</h4>
-							Available for <strong><u>FREE</u></strong> for a limited time. Click the button below to get it now!
-						</div-->
-						<a href="https://www.amazon.com/dp/B07KNR5J4F" class="bttn" target="_blank">Buy Now on Amazon</a>
+						<div class="testimonial">
+							<div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> (5.0 out of 5 stars)</div>
+							&ldquo;Few things go together better than kids and dinosaurs, and this novel proves it by taking readers on a magical journey that is every kid's dream come true. &hellip; This is children's fiction at its best with lots of action, adventure, and suspense, each chapter ending in a cliff-hanger. &hellip; I highly recommend this to boys and girls who enjoy adventure fiction, magic, and dinosaurs.&rdquo;
+						</div>
+						<a href="https://www.amazon.com/dp/B07KNR5J4F" class="bttn" target="_blank" onclick="trackOutboundLink('https://www.amazon.com/dp/B07KNR5J4F'); return false;">Buy it now on Amazon</a>
 					</div>
 					<div id="mc_embed_signup">
 						<form action="https://dinosorcerers.us20.list-manage.com/subscribe/post?u=a5eaf7ab541df5457434cf8ad&amp;id=2c56fcf2d8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>

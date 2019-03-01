@@ -5,7 +5,7 @@ font-family: 'Quicksand', sans-serif;
 background: #8A2387;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 100vh;
+height: 110vh;
 width: 100%;
 }
 h1 {
@@ -26,8 +26,8 @@ max-width: 100%;
 background: #fff;
 /*border: 1px solid #333;*/
 box-shadow: 0 0 5px #555;
-font-size: 16px;
-margin: 0 0 3rem;
+font-size: 15px;
+margin: 0 0 2rem;
 padding: 2rem;
 }
 .main p {
@@ -73,7 +73,7 @@ color: #fff;
 display: block;
 font-family: 'Archivo Black', sans-serif;
 font-size: 22px;
-margin: 3rem 0 0;
+margin: 0.5rem 0 0;
 padding: 0.8rem 1rem;
 text-align: center;
 text-decoration: none;
@@ -107,6 +107,19 @@ padding: 1rem 0.7rem;
 }
 .notice h4 {
 font-size: 20px;
+margin: 0 0 0.3rem;	
+}
+.testimonial {
+border-top: 1px dashed;
+font-style: italic;	
+padding: 1rem 2rem;	
+}
+.stars {
+font-style: normal;	
+}
+.stars i {
+color: #ffbe00;
+font-size: 22px;
 margin: 0 0 0.3rem;	
 }
 
