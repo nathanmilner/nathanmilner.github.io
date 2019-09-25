@@ -122,6 +122,19 @@ color: #ffbe00;
 font-size: 22px;
 margin: 0 0 0.3rem;	
 }
+.socbtn {
+background: #f16e24;
+border-radius: 3px;
+color: #fff;	
+display:block;
+margin: 0.8rem 0.5rem 0 0;	
+text-decoration: none;	
+transition: all 300ms ease;	
+}
+.socbtn:hover {
+background: #8A2387;
+text-decoration: none;	
+}
 
 /************************MEDIA QUERIES*********************/
 @media (max-width: 767px) {
