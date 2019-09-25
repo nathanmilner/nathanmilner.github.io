@@ -135,10 +135,10 @@ text-decoration: none;
 transition: all 300ms ease;	
 }
 .socbtn.fa-facebook {
-padding: 0.5rem 1.2rem;	
+padding: 0.5rem 1rem;	
 }
 .socbtn:hover {
-background: #8A2387;
+background: #f9f00b;
 color: #fff;
 text-decoration: none;	
 }
