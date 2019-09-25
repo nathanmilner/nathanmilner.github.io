@@ -127,7 +127,10 @@ background: #f16e24;
 border-radius: 3px;
 color: #fff;	
 display:block;
-margin: 0.8rem 0.5rem 0 0;	
+font-size: 26px;
+margin: 0.8rem 0.5rem 0 0;
+padding: 0.5rem;
+text-align: center;
 text-decoration: none;	
 transition: all 300ms ease;	
 }
