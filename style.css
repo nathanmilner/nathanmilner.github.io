@@ -2,9 +2,9 @@ body {
 font-family: 'Quicksand', sans-serif;
 }
 .body {
-background: #8A2387;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #8bc2e4; /*#8A2387;   */
+/*background: -webkit-linear-gradient(to bottom, #F27121, #E94057, #8A2387);  
+background: linear-gradient(to bottom, #F27121, #E94057, #8A2387);  */
 height: 110vh;
 width: 100%;
 }
@@ -34,7 +34,7 @@ padding: 2rem;
 margin: 0 0 1.5rem;	
 }
 #mc_embed_signup {
-border: 1px dashed #fff;
+border: 1px dashed #010101;
 border-radius: 5px;
 font-size: 16px;
 width: 100%;	
@@ -96,7 +96,7 @@ text-decoration: none;
   color: #fff;
 }
 .note {
-color: #fff;	
+color: #010101;	
 font-size: 14px;
 font-style: italic;	
 }
